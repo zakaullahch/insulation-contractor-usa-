@@ -1,0 +1,18 @@
+# Cloudflare Workers Static Assets ignore list
+node_modules/
+node_modules/**
+.git/
+.git/**
+.wrangler/
+.wrangler/**
+.github/
+.github/**
+*.js
+!assets/**
+package.json
+package-lock.json
+vercel.json
+wrangler.jsonc
+README.md
+.gitignore
+.assetsignore
